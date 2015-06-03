@@ -11,7 +11,7 @@
   "homepage": "https://github.com/dtao/gulp-esprima/",
   "bugs": "https://github.com/dtao/gulp-esprima/issues/",
   "dependencies": {
-    "esprima": ">= 2.2.0",
+    "esprima": "https://github.com/jquery/esprima.git",
     "through2": ">= 0.4.1"
   },
   "keywords": [
