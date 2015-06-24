@@ -17,7 +17,7 @@ module.exports = function(options) {
     try {
       var code = String(file.contents),
           tree = esprima.parse(code, options.esprima || {});
-      file.contents = new Buffer(stringify);
+      file.contents = new Buffer(stringify(tree));
       this.push(file);
 
     } catch (e) {
